@@ -22,4 +22,3 @@ const assertArraysEqual = function(array1, array2) {
     console.log(`👎 Assert Failed: ${array1} !== ${array2}`);
   }
 };
-ß
