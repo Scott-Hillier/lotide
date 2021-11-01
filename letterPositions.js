@@ -17,8 +17,4 @@ const letterPositions = function (sentence) {
   return result;
 };
 
-const sentence = "lighthouse in the house";
-
-console.log(letterPositions(sentence));
-
 module.exports = letterPositions;
