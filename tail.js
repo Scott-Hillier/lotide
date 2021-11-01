@@ -1,5 +1,8 @@
 const tail = function(array) {
-  const newArray = array.slice(1);
+  if (array.length === 0) {
+    return undefined;
+  }
+  let newArray = array.slice(1);
   return newArray;
 };
 
